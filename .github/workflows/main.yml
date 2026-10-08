@@ -1,0 +1,13 @@
+- name: Seek Deployment
+  # You may pin to the exact commit or the version.
+  # uses: cloudposse/github-action-seek-deployment@9c18326d279eaf1683777086a61ca3c744aeb246
+  uses: cloudposse/github-action-seek-deployment@0.1.1
+  with:
+    # The GitHub token
+    github-token: # default is ${{ github.token }}
+    # Branch or commit SHA
+    ref: 
+    # Environment name
+    environment: 
+    # Deployment status
+    status: # optional
